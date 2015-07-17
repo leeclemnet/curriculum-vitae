@@ -1,0 +1,15 @@
+#OS X
+.DS_Store
+
+#LaTeX
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.lof
+*.log
+*.lot
+*.out
+*.synctex.gz
+*.toc
+*.fdb_latexmk
