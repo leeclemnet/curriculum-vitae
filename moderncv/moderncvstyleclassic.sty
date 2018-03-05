@@ -22,10 +22,11 @@
 %  \setsansfont{Latin Modern Sans}
 %  \setmathfont{Latin Modern Math}
 %\else
-  \IfFileExists{lmodern.sty}%
-    {\RequirePackage{lmodern}}%
-    {}
+  % \IfFileExists{lmodern.sty}%
+  %   {\RequirePackage{lmodern}}%
+  %   {}
 %\fi
+\RequirePackage{lato}
 
 
 %-------------------------------------------------------------------------------
@@ -48,7 +49,7 @@
 \renewcommand*{\hintfont}{}
 
 % styles
-\renewcommand*{\namestyle}[1]{{\namefont\textcolor{color0}{#1}}}
+\renewcommand*{\namestyle}[1]{{\namefont\textcolor{color1}{#1}}}
 \renewcommand*{\titlestyle}[1]{{\titlefont\textcolor{color2}{#1}}}
 \renewcommand*{\addressstyle}[1]{{\addressfont\textcolor{color1}{#1}}}
 \renewcommand*{\quotestyle}[1]{{\quotefont\textcolor{color1}{#1}}}
