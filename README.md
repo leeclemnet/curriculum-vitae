@@ -1,1 +1,2 @@
-My curriculum vitae. Uses the ModernCV template of Xavier Danaux and IEEEtran bibliography style.
+My curriculum vitae. Based on the [AwesomeCV class by Claud D. Park](https://github.com/posquit0/Awesome-CV) and 
+IEEEtran bibliography style.
