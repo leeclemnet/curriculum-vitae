@@ -43,15 +43,6 @@
 \renewcommand{\entrylocationstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\slshape\color{lighttext} #1}}
 % Disable section higlights
 \setbool{acvSectionColorHighlight}{false}
-% Center section headers
-\renewcommand{\cvsection}[1]{%
-  \vspace{\acvSectionTopSkip}
-  \phantomsection
-  \color{sectiondivider}\vhrulefill{0.9pt}
-  \sectionstyle{#1}
-  \phantomsection
-  \color{sectiondivider}\vhrulefill{0.9pt}
-}
 % Customize spacing
 \renewcommand{\acvHeaderAfterNameSkip}{2mm}
 \renewcommand{\acvHeaderAfterPositionSkip}{1mm}
@@ -117,10 +108,10 @@
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
-\input{cv/skills.tex}
 \input{cv/experience.tex}
 \input{cv/education.tex}
 \input{cv/selected-publications.tex}
+\input{cv/skills.tex}
 %\input{cv/teaching.tex}
 \input{cv/service.tex}
 %\input{cv/affiliations.tex}
